@@ -33,7 +33,7 @@ class Honeycomb:
         hex_x = fp.hex_x
         hex_y = fp.hex_y
         side = fp.side
-        wall = fp.wall
+        wall = fp.wall * 2 / math.sqrt(3)
         thickness = fp.thickness
         angle_deg = fp.angle_deg
         angle_axis = fp.angle_axis
